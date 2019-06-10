@@ -14,17 +14,14 @@ html {
 
 /* ---Navigation--- */
 
-nav {
-    padding-top: 75px;
-    padding-bottom: 100px; 
-}
-
 ul.site-navigation {
     text-align: center;
 }
 .site-navigation li {
     display: inline-block;
-     margin-right: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    margin-bottom: 100px;
 }   
 .site-navigation li:last-child {
     margin-right: 0;
@@ -45,31 +42,21 @@ ul.site-navigation {
 
 /* ---Main section--- */
 
-main {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 0;
-}
 .wrapper {
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: center;
+    font-size: 0;
     margin: 0 auto;
-    width: 900px;
     color: #626262;
+    width: 900px;
 }
 
 .col {
     display: inline-block;
     width: 420px;
-    margin-right: 5%;
+    margin-right: 60px;
     margin-bottom: 135px;
-    text-align: center;
 }
 
-.col:nth-child(2n) {
+.col:nth-child(even) {
     margin-right: 0;
 }
 
