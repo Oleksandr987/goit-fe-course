@@ -14,9 +14,16 @@ html {
 
 /* ---Navigation--- */
 
+.site-navigation {
+    font-size: 0;
+    margin: 0 auto;
+    width: 900px;
+}
+
 ul.site-navigation {
     text-align: center;
 }
+
 .site-navigation li {
     display: inline-block;
     margin-right: 100px;
