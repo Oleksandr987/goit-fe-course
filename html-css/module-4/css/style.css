@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.page-header {
+    width: 1110px;
+    margin: 0 auto;
+    height: 162px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 30px;
+    color: #555252;
+    float: left;
+    margin-top: 36px;
+    margin-bottom: 92px;
+}
+
+h1::first-letter {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.site-navigation {
+    float: right;
+    margin-top: 40px;
+    margin-bottom: 104px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.site-navigation ul {
+    width: 463px;
+}
+
+.site-navigation li {
+    margin-right: 23px;
+    list-style: none;
+    float: left;
+}
+
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+
+.site-navigation a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #0f0101;
+    font-family: 'Open-sans',
+        sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #1abc9c;
+}
+
+.wrap {
+    width: 1110px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.title {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #515151;
+    position: relative;
+    text-align: center;
+    margin-bottom: 125px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    bottom: -32px;
+    left: -17px;
+    width: 164px;
+    height: 7px;
+    background-color: #1abc9c;
+    right: 0;
+    margin: 0 auto;
+}
+
+/*Каталог*/
+
+
+.catalog {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+.card {
+    list-style: none;
+    padding: 0;
+    font-size: 0;
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 900;
+    background-color: #323232;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.card:nth-child(n+5) {
+    margin-bottom: 104px;
+}
+
+.card:nth-child(4n) {
+    margin-right: 0px;
+}
+
+.card:hover,
+.card:focus {
+    background-color: #1abc9c;
+}
+
+.card a {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+img {
+    background-color: #e9f0fd;
+}
+
+.name {
+    font-weight: 900;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 32px;
+    float: left;
+    padding-left: 13px;
+    padding-top: 4px;
+}
+
+.price {
+    float: right;
+    background: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    padding: 4px 13px;
+}
+
+.card:hover,
+.card:focus {
+    background-color: #1abc9c;
+}
+
+/* Блог */
+
+.wrapblog {
+    position: absolute;
+    right: 0;
+    left: 0;
+    transform: translateY(944px)
+}
+
+.section {
+    width: 350px;
+    transform: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: 'Open+Sans',
+        sans-serif;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 82px;
+}
+
+.section:last-child {
+    margin-right: 0;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #555252;
+    margin-top: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.subtitle::after {
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 137px;
+    height: 3px;
+    background-color: #1abc9c;
+    right: 0;
+}
+
+.text {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #555252;
+    margin-top: 30px;
+    margin-bottom: 19px;
+}
+
+.button {
+    background: #4dc5ab;
+    width: 159px;
+    height: 52px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+
+.button a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    color: #ffffff;
+}
