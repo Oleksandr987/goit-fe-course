@@ -233,22 +233,21 @@ img {
     margin-bottom: 19px;
 }
 
-button {
-    background: #4dc5ab;
-    width: 159px;
-    height: 52px;
-    cursor: pointer;
-    text-align: center;
-    border: none;
-    border-radius: 3px;
-    outline: none;
-}
-
-button a {
+.input {
     text-decoration: none;
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
     color: #ffffff;
     padding-top: 12px;
+    padding-bottom: 14px;
+    padding-right: 39px;
+    padding-left: 47px;
+    background: #4dc5ab;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    float: left;
 }
