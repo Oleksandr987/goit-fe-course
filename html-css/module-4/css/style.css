@@ -7,7 +7,6 @@
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
     padding: 0px;
     margin: 0px;
 }
@@ -21,7 +20,6 @@
 .page-header {
     width: 1110px;
     margin: 0 auto;
-    height: 162px;
 }
 
 h1 {
@@ -40,6 +38,12 @@ h1::first-letter {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: #1abc9c;
+}
+
+.logo {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #515151;
 }
 
 .site-navigation {
@@ -82,7 +86,6 @@ h1::first-letter {
 .wrap {
     width: 1110px;
     margin: 0 auto;
-    position: relative;
 }
 
 .title {
@@ -111,15 +114,12 @@ h1::first-letter {
 
 
 .catalog {
-    position: absolute;
     right: 0;
     left: 0;
 }
 
 .card {
     list-style: none;
-    padding: 0;
-    font-size: 0;
     font-family: 'Roboto',
         sans-serif;
     font-weight: 900;
@@ -127,6 +127,8 @@ h1::first-letter {
     float: left;
     margin-right: 30px;
     margin-bottom: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .card:nth-child(n+5) {
@@ -142,13 +144,9 @@ h1::first-letter {
     background-color: #1abc9c;
 }
 
-.card a {
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
 img {
     background-color: #e9f0fd;
+    display: block;
 }
 
 .name {
@@ -179,19 +177,14 @@ img {
 /* Блог */
 
 .wrapblog {
-    position: absolute;
     right: 0;
     left: 0;
-    transform: translateY(944px)
 }
 
 .section {
     width: 350px;
     transform: none;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
     font-family: 'Open+Sans',
         sans-serif;
     float: left;
