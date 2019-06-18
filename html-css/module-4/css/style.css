@@ -26,11 +26,8 @@
 
 h1 {
     font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
     font-weight: 300;
     font-size: 30px;
-    color: #555252;
     float: left;
     margin-top: 36px;
     margin-bottom: 92px;
@@ -40,12 +37,13 @@ h1::first-letter {
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     color: #1abc9c;
+
 }
 
 .logo {
     text-transform: uppercase;
     text-decoration: none;
-    color: #515151;
+    color: #555252;
 }
 
 .site-navigation {
@@ -83,6 +81,8 @@ h1::first-letter {
     color: #1abc9c;
 }
 
+ /*---Contant---*/
+ 
 .title {
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
