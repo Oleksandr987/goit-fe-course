@@ -18,7 +18,7 @@
     clear: both;
 }
 
-.page-header {
+.container {
     width: 1110px;
     margin: 0 auto;
     letter-spacing: -0.6px;
@@ -52,7 +52,6 @@ h1::first-letter {
     float: right;
     margin-top: 40px;
     margin-bottom: 104px;
-    padding-left: 0px;
     text-align: center;
 }
 
@@ -85,9 +84,8 @@ h1::first-letter {
     color: #1abc9c;
 }
 
-.wrap {
+.content {
     width: 1110px;
-    margin: 0 auto;
 }
 
 .title {
@@ -104,22 +102,14 @@ h1::first-letter {
 .title::after {
     content: "";
     position: absolute;
-    bottom: -32px;
-    left: -17px;
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
-    right: 0;
-    margin: 0 auto;
+    left: 470px;
+    transform: translateY(75px);
 }
 
 /*Каталог*/
-
-
-.catalog {
-    right: 0;
-    left: 0;
-}
 
 .card {
     list-style: none;
@@ -173,17 +163,7 @@ img {
     padding: 4px 13px;
 }
 
-.card:hover,
-.card:focus {
-    background-color: #1abc9c;
-}
-
 /* Блог */
-
-.wrapblog {
-    right: 0;
-    left: 0;
-}
 
 .section {
     width: 350px;
@@ -206,20 +186,16 @@ img {
     line-height: 26px;
     color: #555252;
     margin-top: 15px;
-    position: relative;
-    text-align: left;
     letter-spacing: -0.36px;
 }
 
 .subtitle::after {
     content: "";
-    position: absolute;
-    bottom: -15px;
-    left: 0;
+    margin-top: 15px;
+    display: block;
     width: 137px;
     height: 3px;
     background-color: #1abc9c;
-    right: 0;
 }
 
 .text {
