@@ -99,7 +99,7 @@ h1::first-letter {
     height: 7px;
     display: block;
     background-color: #1abc9c;
-    margin-left: 468px;
+    margin: 0 auto;
     margin-top: 32px;
 }
 
