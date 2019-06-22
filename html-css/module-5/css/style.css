@@ -198,7 +198,7 @@ h1::first-letter {
 }
 
 .title {
-    position: absolute;
+    position: relative;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
