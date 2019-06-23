@@ -373,14 +373,11 @@ h1::first-letter {
 
 /*---Footer---*/
 
-.info {
-    width: 100vw;
-    left: calc(-50vw + 50%);
+.footer {
     text-align: center;
-    position: relative;
 }
 
-.afuthor {
+.author {
     background-color: #323232;
     color: #fefefe;
     font-weight: 400;
