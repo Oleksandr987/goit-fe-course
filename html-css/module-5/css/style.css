@@ -125,8 +125,6 @@ h1::first-letter {
 .slider {
     position: absolute;
     outline: none;
-    width: 104px;
-    height: 104px;
     border: none;
     cursor: pointer;
     background-color: #4ec6ab;
@@ -288,12 +286,15 @@ h1::first-letter {
 
 .overlay {
     position: absolute;
+    margin: auto;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
-    width: 235px;
-    height: 260px;
-    left: 4%;
-    top: 3%;
+    width: 90%;
+    height: 80%;
+    right: 0;
+    left: 0;
+    top: 44%;
+    transform: translateY(-50%)
 }
 
 .overlay:hover,
@@ -307,8 +308,8 @@ h1::first-letter {
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
-    width: 48px;
-    height: 48px;
+    width: 20%;
+    height: 19%;
     margin-right: 8px;
     top: 37%;
     transform: translateY(-50%);
@@ -318,6 +319,8 @@ h1::first-letter {
     left: 0;
     margin: auto;
     text-align: center;
+    cursor: pointer;
+    background: none;
 }
 
 .icon:hover,
@@ -327,11 +330,11 @@ h1::first-letter {
 }
 
 .love {
-    left: -50%;
+    right: 51%;
 }
 
 .time {
-    right: -50%;
+    left: 51%;
 }
 
 .pe {
@@ -340,8 +343,8 @@ h1::first-letter {
 
 .icon-plus {
     position: absolute;
-    width: 166px;
-    height: 50px;
+    width: 71%;
+    height: 20%;
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
