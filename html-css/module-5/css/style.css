@@ -189,10 +189,8 @@ h1::first-letter {
 
 .collection {
     background-color: #e9f0fd;
-    width: 100vw;
     padding-top: 100px;
     height: 577px;
-    left: calc(-50vw + 50%);
     position: relative;
 }
 
