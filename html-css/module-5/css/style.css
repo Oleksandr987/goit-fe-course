@@ -299,6 +299,7 @@ h1::first-letter {
     text-align: center;
     cursor: pointer;
     background: none;
+    line-height: 0.5px;
 }
 
 .icon:hover,
