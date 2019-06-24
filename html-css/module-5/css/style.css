@@ -344,6 +344,7 @@ h1::first-letter {
     right: 0;
     bottom: 30%;
     margin: auto;
+    text-align: left;
 }
 
 .pe-7s-cart {
