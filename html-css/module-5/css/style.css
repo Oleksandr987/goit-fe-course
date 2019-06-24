@@ -173,7 +173,8 @@ h1::first-letter {
     line-height: 54px;
     letter-spacing: -0.48px;
     color: #ffffff;
-    margin-left: 182px;
+    max-width: 735px;
+    margin: auto;
 
 }
 
