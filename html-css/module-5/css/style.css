@@ -298,7 +298,7 @@ h1::first-letter {
     margin: auto;
     text-align: center;
     cursor: pointer;
-    background: none;
+    background-color: transparent;
     line-height: 0.5px;
 }
 
