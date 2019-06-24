@@ -305,7 +305,6 @@ h1::first-letter {
 .icon:hover,
 .icon:focus {
     background-color: #1abc9c;
-    opacity: 1;
 }
 
 .love {
@@ -337,12 +336,17 @@ h1::first-letter {
     line-height: 50px;
     letter-spacing: -0.45px;
     color: #ffffff;
-    background-color: #323232;
+    background-color: transparent;
     left: 0;
     right: 0;
     bottom: 33%;
     margin: auto;
     text-align: left;
+}
+
+.icon-plus:hover,
+.icon-plus:focus {
+    background-color: #323232;
 }
 
 .pe-7s-cart {
