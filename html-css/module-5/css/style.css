@@ -20,7 +20,7 @@
 
 /*---Header---*/
 
-.menu {
+.container {
     width: 1110px;
     margin: 0 auto;
 }
@@ -100,8 +100,6 @@ h1::first-letter {
 }
 
 .slide {
-    margin: auto;
-    width: 1110px;
     position: relative;
     left: 0;
     right: 0;
@@ -180,11 +178,6 @@ h1::first-letter {
     width: 100%;
 }
 
-.collection-contant {
-    width: 1110px;
-    margin: 0 auto;
-}
-
 .title {
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
@@ -208,11 +201,6 @@ h1::first-letter {
 
 /*---New collection---*/
 
-.new {
-    margin: 0 auto;
-    max-width: 1110px;
-}
- 
 .item {
     font-family: 'Roboto',
     sans-serif;
