@@ -85,18 +85,23 @@ h1::first-letter {
 /* Slider */
 
 .headline {
+    position: relative;
     width: 100%;
     height: 600px;
     background-image: url(../img/homework-05_02.png);
     background-size: cover;
     background-position: center;
+     z-index: 1;
 }
 
-.headline-overlay {
-    background: rgba(0, 0, 0, 0.5);
+.headline::after {
+    position: absolute;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 600px;
+    z-index: -1;
 }
 
 .slide {
