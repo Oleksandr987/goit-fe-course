@@ -328,9 +328,11 @@ h1::first-letter {
     background-color: #323232;
 }
 
-.pe-7s-cart {
-    font-size: 30px;
-    text-align: left;
+.icon-plus img {
+    margin: 0 auto;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 /*---Footer---*/
