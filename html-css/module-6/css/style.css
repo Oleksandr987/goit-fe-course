@@ -312,3 +312,7 @@ p {
 .mail input::placeholder {
     color: #cccccc;
 }
+
+.mail input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
