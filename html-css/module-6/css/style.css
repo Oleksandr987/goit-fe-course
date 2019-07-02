@@ -224,7 +224,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%); 
+    background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
 }
 
 .social:hover,
