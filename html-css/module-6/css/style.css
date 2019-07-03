@@ -52,8 +52,7 @@
 }
 
 .logo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: 'Montserrat-bold', sans-serif;
     font-size: 30px;
 }
 
@@ -64,19 +63,23 @@
 
 .site-navigation {
     display: flex;
-    width: 490px;
     justify-content: space-between;
-    font-family: 'Montserrat',
+    font-family: 'Montserrat-regular',
     sans-serif;
-    font-weight: 400;
     font-size: 14px;
     color: #95e1d3;
-    margin-top: 40px;
+    margin-top: 30px;
     list-style: none;
     text-transform: uppercase;
     cursor: pointer;
 }
+.site-navigation li {
+    margin-right: 50px;
+}
 
+.site-navigation li:last-child {
+    margin-right: 0;
+}
 
 .site-navigation li:after {
     display: block;
@@ -110,9 +113,9 @@
 }
 
 .slogan span {
-    font-family: 'Montserrat',
+    display: block;
+    font-family: 'Montserrat-bold',
     sans-serif;
-    font-weight: 700;
     font-size: 30px;
     text-transform: uppercase;
     line-height: 60px;
@@ -135,31 +138,22 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1180px;
-    margin: auto;
+    list-style: none;
+    margin: 0 10px;
 }
 
 .service-item {
     display: flex;
-    flex-basis: 370px;
-    flex-grow: 0;
-    flex-shrink: 0;
+    flex: 0 0 370px;
     margin-bottom: 100px;
 }
 
-.service-item img {
-    margin-right: 30px;
-    margin-left: 20px;
-}
-
 h3 {
-    font-family: 'Montserrat',
+    font-family: 'Montserrat-regular',
     sans-serif;
-    font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
-    color: #333333;
-    
+    color: #333333;   
 }
 
 .service-item h3 {
@@ -168,19 +162,44 @@ h3 {
 
 p {
     color: #999999;
-    font-family: "Roboto";
-    font-weight: 400;
+    font-family: 'Roboto-regular';
     font-size: 15px;
     line-height: 24px;
+}
+
+.service-item::before {
+    content: '';
+    background-image: url(../img/homework-06_03.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 110px;
+}
+
+.service-item:nth-child(2)::before {
+    background-image: url(../img/homework-06_05.png);
+}
+
+.service-item:nth-child(3)::before {
+    background-image: url(../img/homework-06_07.png);
+}
+
+.service-item:nth-child(4)::before {
+    background-image: url(../img/homework-06_16.png);
+}
+
+.service-item:nth-child(5)::before {
+    background-image: url(../img/homework-06_18.png);
+}
+
+.service-item:nth-child(6)::before {
+    background-image: url(../img/homework-06_20.png);
 }
 
 /* ---Team--- */
 
 .subtitle {
     text-align: center;
-    width: 980px;
-    margin: 0 auto;
-    margin-bottom: 80px;
+    margin: 0 110px 80px;
 }
 
 .team-list {
@@ -188,6 +207,10 @@ p {
     justify-content: space-between;
     list-style: none;
     text-align: center;
+}
+
+.team-list-item {
+    flex: 0 0 380px;
 }
 
 .team-list-item p {
@@ -205,25 +228,19 @@ p {
     margin-bottom: 30px;
 }
 
-.item-img:hover,
-.item-img:focus {
-    top: -10px;
-    left: -10px;
-    box-shadow: 10px 10px 0 0 #95e1d3;
-    transition-timing-function: linear;
-    transition: 200ms;
-}
 
 .social {
     position: absolute;
     opacity: 0;
     width: 100%;
     height: 100%;
-    top: 50%;
+    left: -10px;
+    top: 48%;
     transform: translateY(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 10px 10px 0 0 #95e1d3;
     background-image: linear-gradient(0deg, #f0e290 0%, #e98a89 100%);
 }
 
@@ -233,27 +250,39 @@ p {
     transition-timing-function: linear;
     transition: 200ms;
 }
-
+.social {
+    list-style: none;
+    text-transform: unset;
+}
 
 .social li {
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #fce38a;
+    background: url(../img/homework-06_25.png) center no-repeat #fce38a;
     width: 50px;
     height: 50px;
     border-right: solid 1px #f38181;
 }
 
+.social li:nth-child(2) {
+    background: url(../img/homework-06_27.png) center no-repeat #fce38a;
+}
+
+.social li:nth-child(3) {
+    background: url(../img/homework-06_29.png) center no-repeat #fce38a;
+}
+
 .social li:last-child {
     border-right: 0px; 
+    background: url(../img/homework-06_31.png) center no-repeat #fce38a;
 }
 
 .social li:hover,
 .social li:focus {
     background-color: #95e1d3;
-    transition-timing-function: linear;
+    transition-timing-function: linear; 
     transition: 200ms;
 }
 
@@ -267,9 +296,8 @@ p {
 }
 
 .location {
-    font-family: 'Montserrat',
+    font-family: 'Montserrat-regular',
     sans-serif;
-    font-weight: 400;
     font-size: 14px;
     color:#333333;
     font-style: normal;
@@ -279,40 +307,46 @@ p {
     text-decoration: none;
     color: #f38181;
 }
-.mail {
+
+.email {
     display: flex;
-    margin: 11px 0;
+    margin: 10px 0;
 }
 
-.mail a {
-    text-decoration: none;
-    text-transform: uppercase;
-    background-color: #95e1d3;
-    color: #ffffff;
-    font-family: 'Montserrat',
-    sans-serif;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 40px;
-    padding: 0 30px;
-}
-
-.mail input {
+input[type="text"] {
     width: 230px;
     line-height: 40px;
-    font-family: 'Roboto-lightItalic',
+    font-family: 'Roboto-regular',
     sans-serif;
     font-size: 15px;
     padding-left: 10px;
-    color: #cccccc;
+    color: #333333;
     border: 1px solid #e7e7e7;
+    border-right: none;
     outline: none;
 }
 
-.mail input::placeholder {
+input[type="text"]::placeholder {
+    font-family: 'Roboto-lightItalic', sans-serif;
+    font-size: 15px;
     color: #cccccc;
 }
 
-.mail input:focus::-webkit-input-placeholder {
+input[type="text"]:focus::placeholder {
     color: transparent;
+}
+
+input[type="button"] {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #95e1d3;
+    color: #ffffff;
+    font-family: 'Montserrat-bold',
+        sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
 }
