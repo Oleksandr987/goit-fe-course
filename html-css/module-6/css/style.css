@@ -337,7 +337,7 @@ input[type="text"]:focus::placeholder {
     color: transparent;
 }
 
-input[type="submit"] {
+button[type="submit"] {
     text-transform: uppercase;
     text-decoration: none;
     background-color: #95e1d3;
