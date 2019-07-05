@@ -221,6 +221,8 @@ p {
 
 .item-img img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 .item-img {
