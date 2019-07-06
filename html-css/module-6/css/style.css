@@ -220,6 +220,7 @@ p {
 .item-img {
     position: relative;
     margin-bottom: 30px;
+    opacity: 1;
     transition: box-shadow 200ms linear 200ms;
     transition: bottom 200ms linear 200ms;
     transition: right 200ms linear 200ms;
@@ -227,6 +228,7 @@ p {
 
 .item-img:hover,
 .item-img:focus {
+    opacity: 0.1;
     box-shadow: 10px 10px 0 0 #95e1d3;
     top: -10px;
     left: -10px;
