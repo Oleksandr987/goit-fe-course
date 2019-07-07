@@ -71,7 +71,6 @@
     margin-top: 30px;
     list-style: none;
     text-transform: uppercase;
-    cursor: pointer;
 }
 .site-navigation li {
     margin-right: 50px;
@@ -230,6 +229,7 @@ p {
     transform: translate(-10px,-10px);
 }
 
+
 .item-img:hover>.overlay,
 .item-img:focus>.overlay {
    opacity: 1;
@@ -257,7 +257,7 @@ p {
     transition: 200ms opacity linear;
 }
 
-.overlay li {
+.overlay a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,21 +269,21 @@ p {
     color: transparent;
 }
 
-.overlay li:nth-child(2) {
+.overlay a:nth-child(2) {
     background: url(../img/homework-06_27.png) center no-repeat #fce38a;
 }
 
-.overlay li:nth-child(3) {
+.overlay a:nth-child(3) {
     background: url(../img/homework-06_29.png) center no-repeat #fce38a;
 }
 
-.overlay li:last-child {
+.overlay a:last-child {
     border-right: 0px; 
     background: url(../img/homework-06_31.png) center no-repeat #fce38a;
 }
 
-.overlay li:hover,
-.overlay li:focus {
+.overlay a:hover,
+.overlay a:focus {
     background-color: #95e1d3;
 }
 
@@ -309,7 +309,7 @@ p {
     color: #f38181;
 }
 
-.email {
+form {
     display: flex;
     margin: 10px 0;
 }
