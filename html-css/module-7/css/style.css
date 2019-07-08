@@ -66,7 +66,7 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    padding-bottom: 110px;
+    padding-bottom: 100px;
 }
 
 /* ---Logo--- */
@@ -132,9 +132,11 @@ p {
     font-style: italic;
     color: #777777;
     font-size: 16px;
-    margin-bottom: 70px;
 }
 
+.subtitle {
+    margin-bottom: 70px;
+}
 /* ---Services-list--- */
 
 .services-list {
@@ -158,6 +160,7 @@ p {
     font-size: 14px;
     letter-spacing: 0;
     color: #777777;
+    margin-bottom: 100px;
 }
 
 /*---Footer--- */
@@ -165,9 +168,46 @@ p {
 .footer {
     background: #222222 100vw  no-repeat;
 }
-.fonts {
+.forms {
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 
-/*---Font-list--- */
+.forms h2 {
+    color: #ffffff;
+}
 
+.forms p {
+    padding-bottom: 70px;
+}
+
+/*---Form-list--- */
+
+/* form {
+    display: flex;
+    justify-content: space-between;
+} */
+.contact-area {
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+input {
+    width: 455px;
+    line-height: 50px;
+}
+
+textarea [name="message"] {
+    display: flex;
+    flex-direction: row;
+}
+
+button[type="submit"] {
+    margin: 0 auto;
+}
