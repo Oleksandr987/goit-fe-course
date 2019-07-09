@@ -230,6 +230,7 @@ input {
     line-height: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-transform: none;
     font-size: 14px;
     color: #000000;
     letter-spacing: 0;
@@ -244,6 +245,7 @@ textarea {
     color: #000000;
     letter-spacing: 0;
     text-align: left;
+    text-transform: none;
     border: 1px solid #cccccc;
     border-radius: 3px;
     padding: 20px;
