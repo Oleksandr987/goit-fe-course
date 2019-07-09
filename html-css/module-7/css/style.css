@@ -13,9 +13,11 @@
 }
 
 @font-face {
-    font-family:'Parisienne';
-    src: url(../font/parisienne-v6-latin/parisienne-v6-latin-regular.woff) format('woff'),
-         url(../font/parisienne-v6-latin/parisienne-v6-latin-regular.woff2) format('woff2');
+    font-family: 'Pinyon Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/pinyon-script-v8-latin/pinyon-script-v8-latin-regular.woff2) format('woff2'),
+         url(../font/pinyon-script-v8-latin/pinyon-script-v8-latin-regular.woff) format('woff');
 }
 
 @font-face {
@@ -68,11 +70,11 @@
 /* ---Logo--- */
 
 .logo {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Pinyon Script', cursive;
+    font-weight: 400;
     font-size: 26px;
     line-height: 41px;
     letter-spacing: 1px;
-    
 }
 
 .logo a {
@@ -90,7 +92,11 @@
     line-height: 41px;
     text-transform: uppercase;
     list-style: none;
-    cursor: pointer;
+    color: #222222;
+}
+
+.site-navigation a {
+    text-decoration: none;
     color: #222222;
 }
 
@@ -102,8 +108,8 @@
     margin-right: 0;
 }
 
-.site-navigation li:hover,
-.site-navigetion li:focus {
+.site-navigation a:hover,
+.site-navigetion a:focus {
     color: #fed136;
 }
 
@@ -143,16 +149,20 @@ p {
 }
 
 .service-item {
-    flex: 0 0 250px;
+    flex: 0 0 290px;
 }
 
 .service-item::before {
     content: '';
     display: flex;
-    height: 100px;
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
     background-image: url(../img/E-Commerce_03.png);
     background-repeat: no-repeat;
     background-position: center;
+    border: 3px solid #fed136;
+    border-radius: 50px;
 }
 
 .service-item:nth-child(2)::before {
@@ -163,12 +173,19 @@ p {
     background-image: url(../img/Web-security_07.png);
 }
 
-.service-item h2 {
+.service-item h3 {
     font-size: 18px;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: -1px;
+    color: #222222;
 }
 
 .service-item p {
-    font-family: 'Roboto Slab Regular', serif;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
     letter-spacing: 0;
@@ -177,10 +194,11 @@ p {
 
 
 
-/*---Footer--- */
 
-.footer {
+
+.contact {
     background-image: url(../img/Footer_12.png);
+    width: 100vw;
 }
 .forms {
     text-align: center;
