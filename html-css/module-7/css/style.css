@@ -230,7 +230,6 @@ input {
     line-height: 50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
     font-size: 14px;
     color: #000000;
     letter-spacing: 0;
@@ -242,7 +241,6 @@ input {
 textarea {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-transform: uppercase;
     color: #000000;
     letter-spacing: 0;
     text-align: left;
@@ -252,6 +250,10 @@ textarea {
     font-size: 14px;
     resize: none;
     margin-left: 35px;
+}
+
+textarea::placeholder {
+    text-transform: uppercase;
 }
 
 button[type="submit"] {
@@ -267,6 +269,9 @@ button[type="submit"] {
     border-radius: 3px;
 }
 
+input::placeholder {
+    text-transform: uppercase;
+}
 input:focus::placeholder {
     color: transparent;
 }
