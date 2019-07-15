@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    min-width: 32rem;
+    max-width: 94rem;
+    margin: 0 auto;
+}
+
+.wrapper-bg {
+    background: rgba(0, 0, 0, 1)
+    url("../../img/header.png") center/cover no-repeat;
+} 

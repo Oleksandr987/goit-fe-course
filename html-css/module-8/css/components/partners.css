@@ -1,0 +1,118 @@
+
+.partners {
+    background: #ffffff;
+    padding-bottom: 7rem; 
+    text-align: center;
+}
+
+.partners-title {
+    text-align: center;
+    font-family: var(--main-font-bold);
+    color: var(--semi-font-color);
+    font-size: 2.2rem;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.partners-item {
+    text-align: center;
+}
+.partners-img {
+    position: relative;
+}
+
+.partners-img img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.partners-item>.partners-img::after {
+    content: '';
+    position: absolute;
+    display: flex;
+    background: #ff4e50 url("../../icon/homework-08_Tablet_03.png") center no-repeat;
+    width: 1.7rem;
+    height: 1.7rem;
+    margin: 0 auto;
+    left: 10rem;
+    bottom: 0;
+    right: 0;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 0.4rem solid #ffffff;
+
+}
+
+.partners-item:nth-child(2)>.partners-img::after {
+    background: #ffa507 url("../../icon/homework-08_Tablet_09.png") center no-repeat;
+}
+
+.partners-item:nth-child(3)>.partners-img::after {
+    background: #1cd7ad url("../../icon/homework-08_Tablet_05.png") center no-repeat;
+}
+
+.partners-item:last-child>.partners-img::after {
+    background: #4e73db url("../../icon/homework-08_Tablet_10.png") center no-repeat;
+}
+
+.partners-item h4 {
+    font-family: var(--main-font-bold);
+    color: var(--semi-font-color);
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+.partners-item p {
+    font-family: var(--semi-font);
+    color: var(--per-font-color);
+    font-size: 1.4rem;
+    margin: 0 4.5rem 3rem;
+}
+
+.partners a {
+    text-decoration: none;
+    color: var(--but-font-color);
+    font-family: var(--main-font-bold);
+    font-size: 1.4rem;
+    border: 2px solid var(--but-font-color);
+    border-radius: 25px;
+    padding: 1rem 7rem;
+}
+
+@media screen and (min-width: 48em) {
+    .partners-list {
+        max-width: 49rem;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .partners-item {
+        width: 22rem;
+    }
+
+    .partners-item:nth-child(3) {
+        order: 2;
+    } 
+
+    .partners-item:nth-child(2) {
+        order: 3;
+    }
+
+    .partners-item:last-child {
+        order: 4;
+    }
+
+    .partners-item p {
+        margin: 0 0 6rem;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .partners-list {
+        max-width: 96rem;
+    }
+}

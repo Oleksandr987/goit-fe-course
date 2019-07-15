@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --main-font: 'Montserrat Regular', sans-serif;
+    --main-font-bold: 'Montserrat Bolt', sans-serif;
+    --semi-font: 'Roboto Light', sans-serif;
+    --main-font-color: #ffffff;
+    --semi-font-color: #333333;
+    --per-font-color: #666666;
+    --but-font-color: #ff4e50;
+    font-size: 62.5%;
+}

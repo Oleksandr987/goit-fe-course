@@ -1,0 +1,114 @@
+.container {
+    min-width: 32rem;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 4rem;
+    margin: 0;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--main-font-color);
+    font-family: var(--main-font-bold);
+    text-align: center;
+}
+
+.link-form {
+    text-align: center;
+    padding: 2rem 0 12rem 0;
+}
+
+.link-form a {
+    color: var(--main-font-color);
+    font-family: var(--main-font-bold);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.sign {
+    border: 0.2rem solid #ffffff;
+    border-radius: 2rem;
+    padding: 1rem 1.6rem;
+    cursor: pointer;
+}
+
+.log {
+    margin-right: 2rem;
+}
+
+.promo {
+    text-align: center;
+    color: var(--main-font-color);
+    padding-bottom: 21rem;
+}
+
+.promo-title {
+    font-size: 3rem;
+    font-family: var(--main-font-bold);
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 2rem;
+}
+
+.promo-subtitle {
+    font-size: 1.8rem;
+    font-family: var(--semi-font);
+    margin: 0;
+    padding: 0 5rem;
+    margin-bottom: 3.5rem;
+}
+
+.promo a {
+    text-decoration: none;
+    color: var(--main-font-color);
+    font-family: var(--main-font-bold);
+    font-size: 1.4rem;
+    border-radius: 25px;
+    background: var(--but-font-color);
+    padding: 1.5rem 5rem;
+}
+
+@media screen and (min-width: 48em) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 5rem 16rem;
+        padding-top: 5rem; 
+    }
+
+    .link-form {
+        display: flex;
+        justify-content: flex-end;
+        align-items: baseline;
+        text-align: right;
+        order: 2;
+        padding: 0;
+    }
+
+    .logo {
+        text-align: left;
+        order: 1;
+        padding: 0;
+    }
+
+    .promo-title {
+        font-size: 5rem;
+        padding: 0 14rem;
+        margin-bottom: 5rem;
+    }
+
+    .promo-subtitle {
+        font-size: 2.4rem;
+        margin-bottom: 5rem;
+    }
+
+    .promo {
+        padding-bottom: 25rem;
+    }
+}
