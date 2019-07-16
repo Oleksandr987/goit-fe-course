@@ -119,6 +119,10 @@
         margin: 0 auto 16rem;
     }
 
+    .logo {
+        letter-spacing: 0.5rem;
+    }
+
     .promo {
         max-width: 96rem;
         margin: 0 auto;

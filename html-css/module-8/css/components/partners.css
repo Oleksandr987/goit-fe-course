@@ -109,6 +109,10 @@
     .partners-item p {
         margin: 0 0 6rem;
     }
+
+    .partners a {
+        padding: 1rem 3rem;
+    }
 }
 
 @media screen and (min-width: 60em) {
