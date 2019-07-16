@@ -20,4 +20,5 @@
 .wrapper-bg {
     background: rgba(0, 0, 0, 1)
     url("../../img/header.png") center/cover no-repeat;
+    margin: 0 auto;
 } 
