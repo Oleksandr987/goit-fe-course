@@ -118,4 +118,15 @@
         max-width: 96rem;
         margin: 0 auto 16rem;
     }
+
+    .promo {
+        max-width: 96rem;
+        margin: 0 auto;
+        padding-bottom: 25rem;
+    }
+
+    .promo-title {
+        font-size: 5.2rem;
+        padding: 0 20rem;
+    }
 }
