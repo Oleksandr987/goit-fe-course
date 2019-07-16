@@ -1,22 +1,15 @@
-
 .partners {
-    background: #ffffff;
-    padding-bottom: 7rem; 
+    margin: 0 0 7rem; 
     text-align: center;
 }
 
 .partners-title {
-    text-align: center;
     font-family: var(--main-font-bold);
     color: var(--semi-font-color);
     font-size: 2.2rem;
-    padding-top: 7rem;
-    padding-bottom: 2rem;
+    margin: 7rem 0 2rem;
 }
 
-.partners-item {
-    text-align: center;
-}
 .partners-img {
     position: relative;
 }
@@ -30,7 +23,6 @@
 .partners-item>.partners-img::after {
     content: '';
     position: absolute;
-    display: flex;
     background: #ff4e50 url("../../icon/homework-08_Tablet_03.png") center no-repeat;
     width: 1.7rem;
     height: 1.7rem;
@@ -115,7 +107,7 @@
     }
 }
 
-@media screen and (min-width: 60em) {
+@media screen and (min-width: 58.75em) {
     .partners-list {
         max-width: 94rem;
     }
