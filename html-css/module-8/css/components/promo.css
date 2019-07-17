@@ -2,6 +2,9 @@
     text-align: center;
     padding-bottom: 4rem;
     margin: 0;
+    font-size: 2rem;
+    color: var(--main-font-color);
+    font-family: var(--main-font-bold);
 }
 
 .logo a {
@@ -9,6 +12,10 @@
     font-size: 2rem;
     color: var(--main-font-color);
     font-family: var(--main-font-bold);
+}
+
+.header h1 {
+    display: none;
 }
 
 .link-form {
@@ -73,15 +80,21 @@
         padding-top: 5rem; 
     }
 
+    .header h1 {
+        display: block;
+    }
+
+    .promo h1 {
+        display: none;
+    }
+
     .link-form {
         display: flex;
         align-items: baseline;
-        order: 2;
         padding: 0;
     }
 
     .logo {
-        order: 1;
         padding: 0;
         letter-spacing: 0.5rem;
     }
