@@ -28,16 +28,19 @@
     font-family: var(--main-font-bold);
     text-decoration: none;
     font-size: 1.4rem;
+    padding: 1rem 1.6rem;
+    border: 0.2rem solid transparent;
+    border-radius: 2rem;
 }
 
-.sign {
+.link-form a:hover,
+.link-form a:focus {
     border: 0.2rem solid #ffffff;
     border-radius: 2rem;
-    padding: 1rem 1.6rem;
 }
 
 .log {
-    margin-right: 2rem;
+    margin-right: 2.5rem;
 }
 
 .promo {
@@ -77,14 +80,15 @@
         justify-content: space-between;
         align-items: center;
         margin: 0 5rem 16rem;
-        padding-top: 5rem; 
+        padding-top: 6rem; 
     }
 
     .header h1 {
         display: block;
+        line-height: 2.4rem;
     }
 
-    .promo h1 {
+    .promo-logo {
         display: none;
     }
 
@@ -128,5 +132,9 @@
     .promo-title {
         font-size: 5.2rem;
         padding: 0 20rem;
+    }
+
+    .promo-logo {
+        display: none;
     }
 }

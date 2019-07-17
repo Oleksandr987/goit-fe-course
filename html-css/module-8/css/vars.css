@@ -6,6 +6,7 @@
     --semi-font-color: #333333;
     --per-font-color: #666666;
     --but-font-color: #ff4e50;
+    box-sizing: border-box;
     font-size: 62.5%;
 }
 
