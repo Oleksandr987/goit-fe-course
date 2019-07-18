@@ -49,6 +49,15 @@
     padding-bottom: 21rem;
 }
 
+.promo-logo {
+    text-align: center;
+    padding-bottom: 4rem;
+    margin: 0;
+    font-size: 2rem;
+    color: var(--main-font-color);
+    font-family: var(--main-font-bold);
+}
+
 .promo-title {
     font-size: 3rem;
     font-family: var(--main-font-bold);
