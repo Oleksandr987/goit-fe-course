@@ -1,0 +1,93 @@
+.partners {
+    margin: 0 0 7rem; 
+    text-align: center;
+}
+
+.partners-title {
+    font-family: var(--main-font-bold);
+    color: var(--semi-font-color);
+    font-size: 2.2rem;
+    margin: 7rem 0 3rem;
+}
+
+.partners-img {
+    position: relative;
+}
+
+.partners-img img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.partners-img::after {
+    content: '';
+    position: absolute;
+    background: #ff4e50 url("../../icon/homework-08_Tablet_03.png") center no-repeat;
+    width: 3.2rem;
+    height: 3.3rem;
+    margin: 0 auto;
+    left: 10rem;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+    border: 0.4rem solid #ffffff;
+
+}
+
+.order-2>.partners-img::after {
+    background: #ffa507 url("../../icon/homework-08_Tablet_09.png") center no-repeat;
+}
+
+.order-3>.partners-img::after {
+    background: #1cd7ad url("../../icon/homework-08_Tablet_05.png") center no-repeat;
+}
+
+.order-4>.partners-img::after {
+    background: #4e73db url("../../icon/homework-08_Tablet_10.png") center no-repeat;
+}
+
+.item-title {
+    font-family: var(--main-font-bold);
+    color: var(--semi-font-color);
+    font-size: 1.4rem;
+    margin: 2rem 0;
+}
+
+.item-subtitle {
+    font-family: var(--semi-font);
+    color: var(--per-font-color);
+    font-size: 1.4rem;
+    margin: 0 0 3rem;
+    padding: 0 3.6rem;
+}
+
+.partners a {
+    text-decoration: none;
+    color: var(--but-font-color);
+    font-family: var(--main-font-bold);
+    font-size: 1.4rem;
+    border: 2px solid var(--but-font-color);
+    border-radius: 25px;
+    padding: 1rem 7rem;
+}
+
+@media screen and (min-width: 48em) {
+
+    .partners a {
+        padding: 1rem 3rem;
+    }
+
+    .item-subtitle {
+        margin: 0 0 6rem;
+        padding: 0 4.5rem;
+}
+}
+@media screen and (min-width: 58.75em) {
+    .item-subtitle {
+        padding: 0 .4rem;
+        letter-spacing: -.4px;
+    }
+}
