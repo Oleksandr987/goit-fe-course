@@ -1,0 +1,33 @@
+.promo {
+    text-align: center;
+    padding: 0 0 244px;
+}
+
+.promo-slogan {
+    font-family: var(--slg-font);
+    color: var(--main-font-color);
+    font-size: 72px;
+}
+
+.promo-slogan span {
+    display: block;
+    font-family: var(--main-font-bolt);
+    color: var(--main-font-color);
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding: 42px 20px 135px;
+}
+
+.promo a {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+.promo-button {
+    font-family: var(--main-font-bolt);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 33px;
+    border: 3px solid var(--main-font-color);
+}

@@ -1,0 +1,91 @@
+.service {
+    margin: 46px 0 90px;
+}
+
+.service-slogan {
+    text-align: center;
+    margin: 0;
+    font-family: var(--slg-font);
+    font-size: 24px;
+    color: var(--semi-font-color);
+}
+
+.service-slogan span {
+    display: block;
+    font-family: var(--main-font-bolt);
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+
+.service-slogan span:after {
+    display: block;
+    content: '';
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+.service-item {
+    display: flex;
+    flex: 0 0 370px;
+    margin-bottom: 100px;
+}
+
+.service-title {
+    font-family: var(--main-font);
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--semi-font-color);
+    padding-bottom: 15px;
+}
+
+.service-subtitle {
+    color: var(--per-font-color);
+    font-family: var(--semi-font);
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding-right: 12px;
+}
+
+.service-item::before {
+    content: '';
+    background-image: url(/module-10/img/ALARM.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    width: 110px
+}
+
+.service-item:nth-child(2)::before {
+    background-image: url(/module-10/img/LINE\ GRAPH.svg);
+}
+
+.service-item:nth-child(3)::before {
+    background-image: url(/module-10/img/COMPUTER\ _\ OK.svg);
+}
+
+.service-item:nth-child(4)::before {
+    background-image: url(/module-10/img/BOOK\ 2.svg);
+}
+
+.service-item:nth-child(5)::before {
+    background-image: url(/module-10/img/HOME.svg);
+}
+
+.service-item:nth-child(6)::before {
+    background-image: url(/module-10/img/IMAGE.svg);
+}
