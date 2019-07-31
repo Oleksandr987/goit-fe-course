@@ -1,0 +1,107 @@
+.footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-top: solid 1px #e5e5e5;
+}
+
+.location {
+    font-family: var(--main-font);
+    font-size: 14px;
+    color: var(--semi-font-color);
+    font-style: normal;
+}
+
+.location a {
+    text-decoration: none;
+    color: var(--fot-font-color);
+}
+
+form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px 0;
+}
+
+input[type="text"] {
+    width: 230px;
+    line-height: 40px;
+    font-family: var(--semi-font);
+    font-size: 15px;
+    padding-left: 10px;
+    color: var(--semi-font-color);
+    border: 1px solid #e7e7e7;
+    border-right: none;
+    outline: none;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    font-family: var(--semi-font-italic);
+    font-size: 15px;
+    color: #cccccc;
+}
+
+input[type="text"]::-moz-placeholder {
+    font-family: var(--semi-font-italic);
+    font-size: 15px;
+    color: #cccccc;
+}
+
+input[type="text"]:-ms-input-placeholder {
+    font-family: var(--semi-font-italic);
+    font-size: 15px;
+    color: #cccccc;
+}
+
+input[type="text"]::-ms-input-placeholder {
+    font-family: var(--semi-font-italic);
+    font-size: 15px;
+    color: #cccccc;
+}
+
+input[type="text"]::placeholder {
+    font-family: var(--semi-font-italic);
+    font-size: 15px;
+    color: #cccccc;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::placeholder {
+    color: transparent;
+}
+
+button[type="submit"] {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--img-color);
+    color: var(--main-font-color);
+    font-family: var(--main-font-bolt);
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -23,21 +23,17 @@
 }
 
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Roboto Light Italic';
     font-style: italic;
     font-weight: 400;
-    src: url('../fonts/roboto-v20-latin-300italic.eot');
-    src: local('Roboto Light Italic'), local('Roboto-LightItalic'),
-        url('../fonts/roboto-v20-latin-300italic.woff') format('woff'),
-        url('../fonts/roboto-v20-latin-300italic.ttf') format('truetype');
+    src: url(../fonts/roboto-v20-latin/roboto-v20-latin-300italic.woff) format('woff'),
+        url(../fonts/roboto-v20-latin/roboto-v20-latin-300italic.ttf) format('truetype');
 }
 
 @font-face {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/roboto-v20-latin-regular.eot');
-    src: local('Roboto'), local('Roboto-Regular'),
-        url('../fonts/roboto-v20-latin-regular.woff') format('woff'),
-        url('../fonts/roboto-v20-latin-regular.ttf') format('truetype');
+    src: url(../fonts/roboto-v20-latin/roboto-v20-latin-regular.woff) format('woff'),
+        url(../fonts/roboto-v20-latin/roboto-v20-latin-regular.ttf) format('truetype');
 }
