@@ -77,6 +77,7 @@
     background-repeat: no-repeat;
     background-position-x: center;
     width: 110px;
+    height: 31px;
 }
 
 .service-item:nth-child(2)::before {
