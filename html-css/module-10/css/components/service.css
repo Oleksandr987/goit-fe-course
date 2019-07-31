@@ -76,7 +76,7 @@
     background-image: url(/module-10/img/ALARM.svg);
     background-repeat: no-repeat;
     background-position-x: center;
-    width: 110px
+    width: 110px;
 }
 
 .service-item:nth-child(2)::before {
