@@ -53,6 +53,14 @@
     margin-bottom: 100px;
 }
 
+.service-item svg {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    fill: var(--img-color);
+    margin-right: 30px;
+}
+
 .service-title {
     font-family: var(--main-font);
     font-size: 14px;
@@ -69,33 +77,4 @@
     line-height: 24px;
     margin: 0;
     padding-right: 12px;
-}
-
-.service-item::before {
-    content: '';
-    background-image: url(/module-10/img/ALARM.svg);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    width: 110px;
-    height: 31px;
-}
-
-.service-item:nth-child(2)::before {
-    background-image: url(/module-10/img/LINE\ GRAPH.svg);
-}
-
-.service-item:nth-child(3)::before {
-    background-image: url(/module-10/img/COMPUTER\ _\ OK.svg);
-}
-
-.service-item:nth-child(4)::before {
-    background-image: url(/module-10/img/BOOK\ 2.svg);
-}
-
-.service-item:nth-child(5)::before {
-    background-image: url(/module-10/img/HOME.svg);
-}
-
-.service-item:nth-child(6)::before {
-    background-image: url(/module-10/img/IMAGE.svg);
 }
