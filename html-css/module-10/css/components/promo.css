@@ -9,7 +9,7 @@
     font-size: 72px;
 }
 
-.promo-slogan span {
+.promo-slogan__subtitle {
     display: block;
     font-family: var(--main-font-bolt);
     color: var(--main-font-color);
@@ -19,15 +19,11 @@
     padding: 42px 50px 135px;
 }
 
-.promo a {
-    text-decoration: none;
-    color: var(--main-font-color);
-}
-
 .promo-button {
     font-family: var(--main-font-bolt);
     text-transform: uppercase;
     font-size: 14px;
     padding: 15px 33px;
     border: 3px solid var(--main-font-color);
+    color: var(--main-font-color);
 }

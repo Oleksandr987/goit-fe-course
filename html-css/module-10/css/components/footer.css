@@ -11,26 +11,25 @@
     border-top: solid 1px #e5e5e5;
 }
 
-.location {
+.footer-location {
     font-family: var(--main-font);
     font-size: 14px;
     color: var(--semi-font-color);
     font-style: normal;
 }
 
-.location a {
-    text-decoration: none;
+.footer-location__lokation-link {
     color: var(--fot-font-color);
 }
 
-form {
+.footer-form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     margin: 10px 0;
 }
 
-input[type="text"] {
+.footer-form__field {
     width: 230px;
     line-height: 40px;
     font-family: var(--semi-font);
@@ -42,57 +41,57 @@ input[type="text"] {
     outline: none;
 }
 
-input[type="text"]::-webkit-input-placeholder {
+.footer-form__field::-webkit-input-placeholder {
     font-family: var(--semi-font-italic);
     font-size: 15px;
     color: #cccccc;
 }
 
-input[type="text"]::-moz-placeholder {
+.footer-form__field::-moz-placeholder {
     font-family: var(--semi-font-italic);
     font-size: 15px;
     color: #cccccc;
 }
 
-input[type="text"]:-ms-input-placeholder {
+.footer-form__field:-ms-input-placeholder {
     font-family: var(--semi-font-italic);
     font-size: 15px;
     color: #cccccc;
 }
 
-input[type="text"]::-ms-input-placeholder {
+.footer-form__field::-ms-input-placeholder {
     font-family: var(--semi-font-italic);
     font-size: 15px;
     color: #cccccc;
 }
 
-input[type="text"]::placeholder {
+.footer-form__field::placeholder {
     font-family: var(--semi-font-italic);
     font-size: 15px;
     color: #cccccc;
 }
 
-input[type="text"]:focus::-webkit-input-placeholder {
+.footer-form__field:focus::-webkit-input-placeholder {
     color: transparent;
 }
 
-input[type="text"]:focus::-moz-placeholder {
+.footer-form__field:focus::-moz-placeholder {
     color: transparent;
 }
 
-input[type="text"]:focus:-ms-input-placeholder {
+.footer-form__field:focus:-ms-input-placeholder {
     color: transparent;
 }
 
-input[type="text"]:focus::-ms-input-placeholder {
+.footer-form__field:focus::-ms-input-placeholder {
     color: transparent;
 }
 
-input[type="text"]:focus::placeholder {
+.footer-form__field:focus::placeholder {
     color: transparent;
 }
 
-button[type="submit"] {
+.footer-form__btn {
     text-transform: uppercase;
     text-decoration: none;
     background-color: var(--img-color);

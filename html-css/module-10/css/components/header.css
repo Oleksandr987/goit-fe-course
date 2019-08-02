@@ -8,15 +8,6 @@
 }
 
 .site-navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    align-items: baseline;
     margin: 0 0 179px;
 }
 
@@ -27,45 +18,38 @@
     padding-top: 28px;
 }
 
-.site-navigation__logo a {
-    text-decoration: none;
+.logo__link {
     color: var(--main-font-color);
 }
 
-.site-navigation__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
+.site-navigation__navigation-list {
     font-family: var(--main-font);
     font-size: 14px;
     color: var(--main-font-color);
-    list-style: none;
-    text-transform: uppercase;
     padding: 40px 0 0;
+    text-transform: uppercase;
 }
 
-.site-navigation__item a {
-    text-decoration: none;
+.navigation-list__link {
     color: var(--main-font-color);
 }
 
-.site-navigation__item svg {
+.navigation-list__button {
     display: inline-block;
     width: 18px;
     height: 15px;
     fill: var(--main-font-color);
 }
 
-.site-navigation__item {
+.navigation-list__item {
     margin-right: 55px;
 }
 
-.site-navigation__item:last-child {
+.navigation-list__item:last-child {
     margin-right: 0;
 }
 
-.site-navigation__item:nth-child(-n+5)::after {
+.navigation-list__item:nth-child(-n+5)::after {
     display: block;
     content: '';
     width: 0;
@@ -74,16 +58,27 @@
     margin-top: 12px;
 }
 
-.site-navigation__item:nth-child(-n+5):hover:after {
+.navigation-list__item:nth-child(-n+5):hover:after {
     width: 100%;
 }
 
-.site-navigation__item a:hover,
-.site-navigation__item a:focus {
+.navigation-list__link:hover,
+.navigation-list__link:focus {
     color: var(--hov-font-color);
 }
 
-.site-navigation__item:hover svg,
-.site-navigation__item:focus svg {
+.navigation-list__button:hover,
+.navigation-list__button:focus {
     fill: var(--hov-font-color);
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .wrapper-background {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, 0.9)), to(rgba(243, 129, 129, 0.9))),
+            url("../../img/background@2x-min.png") center/cover no-repeat;
+        background: -o-linear-gradient(bottom, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%),
+            url("../../img/background@2x-min.png") center/cover no-repeat;
+        background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%),
+            url("../../img/background@2x-min.png") center/cover no-repeat;
+    }
 }

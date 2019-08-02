@@ -2,48 +2,14 @@
     margin: 46px 0 90px;
 }
 
-.service-slogan {
-    text-align: center;
-    margin: 0;
-    font-family: var(--slg-font);
-    font-size: 24px;
-    color: var(--semi-font-color);
-}
-
-.service-slogan span {
-    display: block;
-    font-family: var(--main-font-bolt);
-    font-size: 30px;
-    text-transform: uppercase;
-    line-height: 60px;
-}
-
-.service-slogan span:after {
-    display: block;
-    content: '';
-    width: 60px;
-    height: 3px;
-    background-color: #f38181;
-    margin: auto;
-    margin-top: 30px;
-    margin-bottom: 60px;
-}
-
 .service-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    list-style: none;
     margin: 0 10px;
     padding: 0;
 }
 
-.service-item {
+.service-list__service-item {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -53,7 +19,7 @@
     margin-bottom: 100px;
 }
 
-.service-item svg {
+.service-item__service-icon {
     display: inline-block;
     width: 32px;
     height: 32px;
@@ -61,16 +27,11 @@
     margin-right: 30px;
 }
 
-.service-title {
-    font-family: var(--main-font);
-    font-size: 14px;
-    margin: 0;
-    text-transform: uppercase;
-    color: var(--semi-font-color);
+.service-text__service-title {
     padding-bottom: 15px;
 }
 
-.service-subtitle {
+.service-text__service-subtitle {
     color: var(--per-font-color);
     font-family: var(--semi-font);
     font-size: 15px;
