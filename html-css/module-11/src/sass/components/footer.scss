@@ -1,0 +1,102 @@
+.footer {
+    @include input-placeholder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    border-top: solid 1px $ftr-color;
+}
+
+.footer-location {
+    font-family: $main-font;
+    font-size: 14px;
+    color: $semi-font-color;
+    font-style: normal;
+}
+
+.footer-location__lokation-link {
+    color: $fot-font-color;
+}
+
+.footer-form {
+    @include input-placeholder {
+        display: flex;
+    }
+    margin: 10px 0;
+}
+
+.footer-form__field {
+    width: 230px;
+    line-height: 40px;
+    font-family: $semi-font;
+    font-size: 15px;
+    padding-left: 10px;
+    color: $semi-font-color;
+    border: 1px solid $ftr-color;
+    border-right: none;
+    outline: none;
+}
+
+.footer-form__field::-webkit-input-placeholder {
+    font-family: $semi-font-italic;
+    font-size: 15px;
+    color: $semi-ftr-color;
+}
+
+.footer-form__field::-moz-placeholder {
+    font-family: $semi-font-italic;
+    font-size: 15px;
+    color: $semi-ftr-color;
+}
+
+.footer-form__field:-ms-input-placeholder {
+    font-family: $semi-font-italic;
+    font-size: 15px;
+    color: $semi-ftr-color;
+}
+
+.footer-form__field::-ms-input-placeholder {
+    font-family: $semi-font-italic;
+    font-size: 15px;
+    color: $semi-ftr-color;
+}
+
+.footer-form__field::placeholder {
+    font-family: $semi-font-italic;
+    font-size: 15px;
+    color: $semi-ftr-color;
+}
+
+.footer-form__field:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+.footer-form__field:focus::-moz-placeholder {
+    color: transparent;
+}
+
+.footer-form__field:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.footer-form__field:focus::-ms-input-placeholder {
+    color: transparent;
+}
+
+.footer-form__field:focus::placeholder {
+    color: transparent;
+}
+
+.footer-form__btn {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: $img-color;
+    color: $main-font-color;
+    font-family: $main-font-bolt;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 32px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.service {
+    margin: 46px 0 90px;
+}
+
+.service-list {
+    @include input-placeholder {
+        flex-wrap: wrap;
+    }
+    margin: 0 10px;
+    padding: 0;
+}
+
+.service-list__service-item {
+    @include input-placeholder {
+        display: flex;
+        flex: 0 0 370px;
+    }
+    margin-bottom: 100px;
+}
+
+.service-item__service-icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    fill: $img-color;
+    margin-right: 30px;
+}
+
+.service-text__service-title {
+    padding-bottom: 15px;
+}
+
+.service-text__service-subtitle {
+    color: $per-font-color;
+    font-family: $semi-font;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+    padding-right: 12px;
+}

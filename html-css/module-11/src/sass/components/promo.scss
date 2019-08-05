@@ -1,0 +1,29 @@
+.promo {
+    text-align: center;
+    padding: 0 0 244px;
+}
+
+.promo-slogan {
+    font-family: $slg-font;
+    color: $main-font-color;
+    font-size: 72px;
+}
+
+.promo-slogan__subtitle {
+    display: block;
+    font-family: $main-font-bolt;
+    color: $main-font-color;
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 140px;
+    padding: 42px 50px 135px;
+}
+
+.promo-button {
+    font-family: $main-font-bolt;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 33px;
+    border: 3px solid $main-font-color;
+    color: $main-font-color;
+}

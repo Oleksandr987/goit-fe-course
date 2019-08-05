@@ -1,0 +1,104 @@
+.team-subtitle {
+    text-align: center;
+    margin: 0 110px 80px;
+}
+
+
+.team-list__team-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 380px;
+    flex: 0 0 380px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.team-list__team-item:last-child {
+    margin-right: 0;
+}
+
+.team-item__team-title {
+    margin: 0 0 15px;
+}
+
+.team-item__team-sutitle {
+    font-family: $semi-font-italic;
+    margin: 0 0 85px;
+}
+
+.team-item__item-img {
+    position: relative;
+    margin-bottom: 30px;
+    @include input-placeholder {
+        transition: 200ms box-shadow linear;
+        transition: 200ms transform linear;
+    }
+
+    &--:hover,
+    &--:focus {
+        @include input-placeholder {
+            box-shadow: 10px 10px 0 0 $img-color;
+            transform: translate(-10px, -10px);
+        }
+    }
+
+    &--:hover>.social-list,
+    &--:focus>.social-list {
+        opacity: 1;
+    }
+}
+
+.team-item__item-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.social-list {
+    position: absolute;
+    text-transform: unset;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    @include input-placeholder {
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(0deg, rgba(240, 226, 144, .7)0%, rgba(233, 138, 137, .7)100%);
+        transition: 200ms opacity linear;
+    }
+}
+
+.social-list__social-link {
+    @include input-placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    background: $hov-font-color;
+    width: 50px;
+    height: 50px;
+    border-right: solid 1px $fot-font-color;
+    color: transparent;
+
+    &--:hover,
+    &--:focus {
+        background-color: $fot-font-color;
+    }
+
+    &--:hover>.icon-social,
+    &--:focus>.icon-social {
+        fill: $main-font-color;
+    }
+}
+
+.social-list__social-link:last-child {
+    border-right: 0px;
+}
+
+.icon-social {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    fill: $fot-font-color;
+}

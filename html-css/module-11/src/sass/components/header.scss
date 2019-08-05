@@ -1,0 +1,80 @@
+.wrapper-background {
+    @include input-placeholder {
+        background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%),
+        url(../images/background-min.png) center/cover no-repeat;
+    }
+}
+
+.site-navigation {
+    margin: 0 0 179px;
+}
+
+.site-navigation__logo {
+    margin: 0;
+    font-family: $main-font-bolt;
+    font-size: 30px;
+    padding-top: 28px;
+}
+
+.logo__link {
+    color: $main-font-color;
+}
+
+.site-navigation__navigation-list {
+    font-family: $main-font;
+    font-size: 14px;
+    color: var(--main-font-color);
+    padding: 40px 0 0;
+    text-transform: uppercase;
+}
+
+.navigation-list__link {
+    color: $main-font-color;
+
+    &--:hover,
+    &--:focus {
+        color: $hov-font-color;
+    }
+}
+
+.navigation-list__button {
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    fill: $main-font-color;
+    
+    &--:hover,
+    &--:focus {
+        fill: $hov-font-color;
+    }
+}
+
+.navigation-list__item {
+    margin-right: 55px;
+}
+
+.navigation-list__item:last-child {
+    margin-right: 0;
+}
+
+.navigation-list__item:nth-child(-n+5)::after {
+    display: block;
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: $hov-font-color;
+    margin-top: 12px;
+}
+
+.navigation-list__item:nth-child(-n+5):hover:after {
+    width: 100%;
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .wrapper-background {
+        @include input-placeholder {
+            background: linear-gradient(to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%),
+            url(../background@2x-min.png) center/cover no-repeat;
+        }
+    }
+}
